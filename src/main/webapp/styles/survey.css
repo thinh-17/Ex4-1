@@ -7,15 +7,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(90deg, #e2e2e2, #333);
 }
 h1 {     
     font-size: 160%;
-    color: blue;
+    color: #da9f17;
     margin-bottom: .5em;    
 }
 h2 {     
     font-size: 130%;
-    color: blue;
+    color: #da9f17;
     margin-bottom: .5em;    
 }
 label {
@@ -24,25 +25,39 @@ label {
     margin-bottom: 0.5em;
     padding-top: .3em;
     font-weight: bold;
+    color: aliceblue;
+}
+p {
+    color: aliceblue;
 }
 input[type="text"], input[type="email"], input[type="date"] {  /* An attribute selector */
     width: 15em;
     margin-left: 0.5em;    
     margin-bottom: 0.5em;
+    border-radius: 40px;
+    padding: 5px;
+    padding-left: 10px;
 }
 
 input[type="submit"] {
-	background-color: blue;
+	background-color: rgb(192, 7, 7);
 	color: white;
 	padding: 10px;
 	width: 20%;
+	border-radius: 50px;
+}
+
+input[type="submit"]:hover {
+    background-color: #da9f17;
 }
 
 .boxSubmit {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+    padding-top: 10px;
 }
+
 span {
     margin-left: 0.5em;    
     margin-bottom: 0.5em;    
@@ -81,4 +96,12 @@ select {
 	display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.container {
+	background-color: #22211d;
+    padding: 40px;
+    border-radius: 20%;
+    margin: 5px;
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.3);
 }
