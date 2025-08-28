@@ -8,6 +8,8 @@
     <body>
     	<div class="container">
 	    	<form action="survey" method="post">
+	    	    <input type="hidden" name="action" value="add">
+	    	    
 	        	<div class="image"><img src="images/murachlogo.jpg" alt="Murach" width="100"></div>
 	            <h1>Survey</h1>
 	            <p>If you have a moment, we'd appreciate it if you would fill out this survey.</p>
@@ -20,7 +22,7 @@
 	            <label>Email</label>
 	            <input type="email" name="email" required><br>
 	            <label>Date Of Birth</label>
-	            <input type="date" name="dateOfBirth"><br>
+	            <input type="date" name="dateOfBirth" required><br>
 	
 	            <h2>How did you hear about us?</h2>
 	            <p><input type=radio name="heardFrom" value="Search Engine" checked>Search engine
@@ -40,7 +42,7 @@
 	                </select>
 	            </p>
 	
-	            <div class="boxSubmit"><input type=submit value="Submit"></div>
+	            <div class="boxSubmit"><input type="submit" value="Submit"></div>
 	        </form>
     	</div>
     </body>
