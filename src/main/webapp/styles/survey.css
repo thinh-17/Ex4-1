@@ -9,10 +9,17 @@ body {
     align-items: center;
     background: linear-gradient(90deg, #e2e2e2, #333);
 }
+
 h1 {     
     font-size: 160%;
     color: #da9f17;
     margin-bottom: .5em;    
+}
+
+header h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 h2 {     
     font-size: 130%;
@@ -27,6 +34,17 @@ label {
     font-weight: bold;
     color: aliceblue;
 }
+
+.user-info, .survey-info {
+	padding: 0;
+	margin: 0;
+	display : flex;
+}
+
+.user-info span, .survey-info span {
+	padding-top: 5px;
+}
+
 p {
     color: aliceblue;
 }
