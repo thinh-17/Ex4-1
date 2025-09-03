@@ -4,6 +4,7 @@ body {
     font-size: 85%;
     margin-left: 2em;
     margin-right: 2em;
+    margin-top: 5em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,18 +36,19 @@ label {
     color: aliceblue;
 }
 
-.user-info, .survey-info {
+.user-info, .survey-item {
 	padding: 0;
 	margin: 0;
 	display : flex;
 }
 
-.user-info span, .survey-info span {
+.user-info span, .survey-item span {
 	padding-top: 5px;
 }
 
 .survey-item label {
 	width: max-content;
+	color: #da9f17;
 }
 
 p {
